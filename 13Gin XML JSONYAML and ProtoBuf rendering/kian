@@ -1,0 +1,8 @@
+https://github.com/gin-gonic/gin#installation
+
+
+
+go get
+go run main.go
+
+

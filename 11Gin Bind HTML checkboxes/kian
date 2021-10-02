@@ -1,0 +1,7 @@
+https://github.com/gin-gonic/gin#installation
+
+go run main.go
+
+http://localhost:8080/
+
+

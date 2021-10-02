@@ -1,0 +1,13 @@
+go run main.go
+https://github.com/gin-gonic/gin#installation
+
+
+
+
+http://localhost:8080/user/:kian
+
+http://localhost:8080/user/:kian/*jshdjhsd
+
+http://localhost:8080/user/1kian/hgy78
+
+http://localhost:8080/user/groups

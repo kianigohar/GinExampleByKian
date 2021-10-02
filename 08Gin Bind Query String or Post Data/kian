@@ -1,0 +1,18 @@
+https://github.com/gin-gonic/gin#installation
+
+go run main.go
+
+in chrome
+http://localhost:8085/testing?name=amirKiani&address=kianadress&birthday=1970-03-15&createTime=1562400033000000123&unixTime=1562400033
+
+
+send by terminal
+curl -X GET "localhost:8085/testing?name=amirKiani&address=kianadress&birthday=1970-03-15&createTime=1562400033000000123&unixTime=1562400033"
+
+response in server
+2021/10/02 13:26:44 amirKiani
+2021/10/02 13:26:44 kianadress
+2021/10/02 13:26:44 1970-03-15 00:00:00 +0000 UTC
+2021/10/02 13:26:44 2019-07-06 12:30:33.000000123 +0430 +0430
+2021/10/02 13:26:44 2019-07-06 12:30:33 +0430 +0430
+[GIN] 2021/10/02 - 13:26:44 | 200 |     708.234µs |       127.0.0.1 | GET      "/testing?name=amirKiani&address=kianadress&birthday=1970-03-15&createTime=1562400033000000123&unixTime=1562400033"

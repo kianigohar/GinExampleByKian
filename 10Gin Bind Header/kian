@@ -1,0 +1,20 @@
+https://github.com/gin-gonic/gin#installation
+
+go run main.go
+
+in terminal
+curl -H "rate:300" -H "domain:music33" 127.0.0.1:8080/
+
+curl  -H "domain:music33" 127.0.0.1:8080 -H "rate:300"/
+
+curl -H "domain:music33" -H "rate:300" 127.0.0.1:8080/
+
+
+in server
+===============
+
+[GIN] 2021/10/02 - 14:07:17 | 200 |     130.582µs |       127.0.0.1 | GET      "/"
+main.testHeader{Rate:300, Domain:"music33"}
+[GIN] 2021/10/02 - 14:07:29 | 200 |     858.988µs |       127.0.0.1 | GET      "/"
+
+

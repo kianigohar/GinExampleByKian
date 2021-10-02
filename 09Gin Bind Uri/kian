@@ -1,0 +1,24 @@
+https://github.com/gin-gonic/gin#installation
+
+go run main.go
+
+http://localhost:8088/thinkerou/987fbc97-4bed-5078-9f07-9141ba07c9f3
+http://localhost:8088/thinkerou/not-uuid
+http://localhost:8088/thinkerou/1254-kian
+
+
+$ curl -v localhost:8088/thinkerou/987fbc97-4bed-5078-9f07-9141ba07c9f3
+$ curl -v localhost:8088/thinkerou/not-uuid
+
+
+--------------------
+[GIN-debug] GET    /:name/:id                --> main.main.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8088
+[GIN] 2021/10/02 - 13:58:13 | 200 |      184.44µs |             ::1 | GET      "/thinkerou/987fbc97-4bed-5078-9f07-9141ba07c9f3"
+[GIN] 2021/10/02 - 13:58:13 | 404 |         967ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2021/10/02 - 13:58:32 | 200 |      50.961µs |             ::1 | GET      "/thinkerou/987fbc97-4bed-5078-9f07-9141ba07c9f3"
+[GIN] 2021/10/02 - 13:58:56 | 400 |     123.527µs |             ::1 | GET      "/thinkerou/not-uuid"
+[GIN] 2021/10/02 - 13:59:28 | 400 |      51.945µs |             ::1 | GET      "/thinkerou/not-uuid"
+[GIN] 2021/10/02 - 13:59:49 | 400 |     163.531µs |             ::1 | GET      "/thinkerou/1254-kian"
+[GIN] 2021/10/02 - 13:59:57 | 400 |      293.49µs |             ::1 | GET      "/thinkerou/1254-kian"
+^Csignal: interrupt

@@ -1,0 +1,11 @@
+https://github.com/gin-gonic/gin#installation
+
+go run main.go
+
+
+http://localhost:8080/ping
+http://192.168.213.128:8080/ping
+
+
+192.168.213.128 - [Sat, 02 Oct 2021 12:50:09 +0330] "GET /ping HTTP/1.1 200 10.818µs "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" "
+
